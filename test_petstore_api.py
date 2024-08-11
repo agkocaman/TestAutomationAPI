@@ -68,7 +68,7 @@ def update_negative():
         "name": "Gokhan",
         "status": "invalid_status"  
     }
-    response = requests.put(f"{BASE_URL}/pet", json=data)
+    response = requests.put(f"{base}/pet", json=data)
     print("UPDATE - Negative Scenario:")
     view_response(response)
     
@@ -76,14 +76,14 @@ def update_negative():
 # DELETE - Positive Scenario
 def delete_positive():
     id = 123456
-    response = requests.delete(f"{BASE_URL}/pet/{id}")
+    response = requests.delete(f"{base}/pet/{id}")
     print("DELETE - Positive Scenario:")
     view_response(response)
 
 # DELETE - Negative Scenario
 def delete_negative():
     id = 999999 #deleted with non-existent id
-    response = requests.delete(f"{BASE_URL}/pet/{id}")
+    response = requests.delete(f"{base}/pet/{id}")
     print("DELETE - Negative Scenario:")
     view_response(response)
 
