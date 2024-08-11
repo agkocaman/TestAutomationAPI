@@ -1,4 +1,4 @@
-# Petstore API Test Automation
+# API Test Automation
 
 This is a simple Python project for testing the Petstore API.
 
@@ -15,20 +15,19 @@ This project tests the Petstore API using Python. It does **CRUD** operations:
 
 1. **Clone the project**:
    ```
-   git clone https://github.com/your-username/petstore-api-test.git
+   git clone https://github.com/agkocaman/TestAutomationAPI.git
    ```
    
 2. **Go to the project folder**:
    ```
-   cd petstore-api-test
+   cd TestAutomationAPI
    ```
 
 3. **Run the code**:
    ```
-   python filename.py
+   python test_petstore_api.py
    ```
 
-   Replace `filename.py` with your file name.
 
 ## Code Details
 
@@ -62,7 +61,3 @@ pip install requests
 
 - This is a simple project.
 - It is for learning purposes.
-
-## License
-
-This project is open-source.
